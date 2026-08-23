@@ -3,8 +3,6 @@ import mediapipe as mp
 import serial
 import time
 
-# Dodać lekki cooldown jak zobaczy środkowy palec, żeby nie strzelał od razu gdy tylko zniknie, tylko jakoś po sekundzie/dwóch
-
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
